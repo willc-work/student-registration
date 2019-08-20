@@ -221,7 +221,7 @@
             this.backButton.TabIndex = 19;
             this.backButton.TabStop = true;
             this.backButton.Text = "Back";
-            this.backButton.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabel1_LinkClicked);
+            this.backButton.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.BackLink);
             // 
             // button1
             // 

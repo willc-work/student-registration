@@ -40,7 +40,7 @@ namespace StudentRegistration
             }
         }
 
-        private void LinkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void BackLink(object sender, LinkLabelLinkClickedEventArgs e)
         {
             this.Hide();
             Form1 f1 = new Form1();
@@ -65,7 +65,7 @@ namespace StudentRegistration
             s.Address = addressTextBox.Text;
             s.PhoneNumber = phoneNumberTextBox.Text;
             s.Course = courseNameComboBox.Text;
-            s.Gender = if 
+          //  s.Gender = if 
             ls.Add(s);
 
         }

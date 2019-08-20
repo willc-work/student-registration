@@ -17,12 +17,7 @@ namespace StudentRegistration
             InitializeComponent();
         }
 
-        private void Form3_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void LinkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void BackLink(object sender, LinkLabelLinkClickedEventArgs e)
         {
             this.Hide();
             Form1 f1 = new Form1();
